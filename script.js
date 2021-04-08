@@ -1,1 +1,7 @@
-alert("Thanks for your input!");
+
+
+var b = "wali";
+
+a = "usman";
+
+alert(b)
