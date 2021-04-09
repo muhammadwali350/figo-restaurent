@@ -414,34 +414,17 @@ header #menu-bar{
     top:0;
 }
 
-.order{
-    background:url(../images/contact-bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-
+.box1 {
+    width: 40rem;
+    border-radius: 4px;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
+    padding: 20px;
+    font-size: large;
 }
 
-.order .row{
+form{
     display: flex;
-    background:#fff;
-    margin:2rem 0;
-    overflow: hidden;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
-    border-radius: 1rem;
-}
-
-.order .row .image{
-    flex:1 1 40%;
-}
-
-.order .row .image img{
-    height:100%;
-    width:100%;
-    object-fit: cover;
-}
-
-.order .row form{
-    flex:1 1 60%;
+    justify-content: center;
     background:#fff;
     padding:2rem;
 }
@@ -449,24 +432,13 @@ header #menu-bar{
 .order .row form .box{
     padding:1rem;
     margin:1rem 0;
-    font-size: 1.5rem;
     color:#333;
-    text-transform: none;
     background:#f0f0f0;
     width:100%;
 }
 
-.order .row form .box::placeholder{
-    text-transform: capitalize;
-}
-
-.order .row form .address{
-    resize: none;
-    height:15rem;
-}
-
 .footer{
-    background:#282727;
+    background:#ecf0f1;
     padding:1rem 7%;
 }
 
@@ -477,27 +449,28 @@ header #menu-bar{
 
 .footer .box-container .box{
     flex:1 1 25rem;
-    margin:2rem;
+    margin:.5rem;
 }
 
 .footer .box-container .box h3{
-    font-size: 2.5rem;
-    color:#fff;
+    font-size: 2rem;
+    color:#000;
     padding:1rem 0;
     font-weight: normal;
 }
 
 .footer .box-container .box p{
-    font-size: 1.7rem;
-    color:#eee;
+    font-size: 1.5rem;
+    color:#000;
     padding:1rem 0;
 }
 
 .footer .box-container .box a{
-    font-size: 1.7rem;
-    color:#eee;
+    font-size: 1.5rem;
+    color:#000;
     padding:1rem 0;
     display: block;
+    text-decoration: none;
 }
 
 .footer .box-container .box a:hover{
@@ -516,7 +489,7 @@ header #menu-bar{
     padding:2rem 1rem;
     font-weight: normal;
     letter-spacing: .1rem;
-    color:#fff;
+    color:#000;
 }
 
 .footer .credit a{
